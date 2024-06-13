@@ -194,3 +194,119 @@
 //in some cases api are also found in the form of array
 
 //json are just javascript object Notations
+
+//===========================Function- to hadle multiple parameter we use rest operator '...'================
+
+//assignment of argument to parameter is moved from left to right for functions
+
+//{} this is known as scope if comes with conditionals and functions
+//and in scopes var creates problem thats why we dont use var
+
+// ===============================hoisting==============================
+
+// console.log(addone(1)); // output - 2
+// function addone(num){ // declaring function in this way without holding them we can call that function before decleration because in js
+//     return num + 1//there is a concept of hoisting where when function is called before declaration then js initialize the function definition
+// }//above the function call invisibly this is known as hoisting
+// console.log(addone(1)); // output -> 2
+
+
+// console.log(result(1)); // and if we call a function before initialization which is stored in a variable then it throws error
+// const result = function addtwo(num){
+//     return num + 2
+// }
+// console.log(result(1)); // outpu-> 3
+
+//===============================This Keyword========================================
+
+// before arrow function we will study this pointer
+
+// const user = {
+//     name: " Madhusudan",
+//     age: 19,
+//     welcomemsg: function(){
+//         console.log(`${this.name}, Welcome Sir.`); // here this used to represent the current context(you can we in block)
+//         console.log(this);
+//     }
+// }
+
+// user.welcomemsg();
+// user.name = "sunny"
+// user.welcomemsg()
+
+// console.log(this); // this is a global this here in node environment their is nothing as global object that's why this is showing empty object
+// but when we print this in brower their the global object is window so in browser this shows window object
+//if you print this even inside a function the output will be multiple objects because in that case this is representing thta function context
+//this will only print some global object of function but we want to use this for function (both arrow & normal)variables then the out will be undefined.
+//and we are in node environment then the this keyword will refer to empty object
+
+//=====================================Arrow Function================================================
+
+// () => {
+//     body //we can declare arrow function like this it is the syntax of arrow function 
+// }
+
+// we can hold arrow function inside a variable
+// const fun = () => {
+//     let a = 10
+//     console.log(a); // This arrow function in explicit return arrow function
+// }
+// fun() // in fun the arrow function is stored and using fun we can call that arrow function
+
+//Here is the example of implicit arrow function which is only written in one line
+
+// const result = (num1, num2) => console.log(num1 + num2); // this is implicit return arrow function
+// result(10, 10) 
+
+// if we wrap the function output in curly brackets then we have to write return and if the function body is wrapped in paranthesis the no return
+//even if we use to return object from implicit function then also we have to wrap the object in paranthesis
+
+//=========Immediately invoked function expressions(IIFE)================================
+
+//SYNTAX OF IIFE
+
+// (
+//     FUNCTION DEFINITION
+// )(EXECUTION OF FUNCTION); //here two paranthesis are used for IIFE and semicolon for termination
+//TO REMOVE THE POLUTION AND VARIABLE OF GLOBAL SCOPE WE USE IIFE
+
+/* 
+Global Scope Pollution
+
+Global scope pollution occurs when too many variables or functions are added to the global namespace. This can lead to various issues, such as:
+
+Naming Conflicts: If multiple scripts define variables or functions with the same name in the global scope,
+they can overwrite each other, causing unexpected behavior.
+
+Maintenance Challenges: With many global variables, it becomes harder to track and manage the state of the application.
+
+Security Risks: Global variables can be accessed and modified from any part of the code,
+ increasing the risk of unintended changes and security vulnerabilities.
+
+Memory Leaks: Variables in the global scope are not garbage collected until the application is closed, 
+potentially leading to memory leaks if not managed properly. 
+*/
+//we can use both normal and arrow function in iife
+//In this type of functions they immediately execute themselves but hey dont know when to terminate themselves then we use semicolon at end
+
+// ( function hello(){  //This is known as named IIFE
+//     console.log(`Hello Madhu`);
+// })();
+// //Examples of IIFE functions
+// ( ()=>{  //This is known as Unnamed IIFE
+//     console.log(`Hello Sunny`);
+// })();
+
+//And we pass parameters in function and argument for them are passed in the execution paranthesis of IIFE
+
+//============================JavaScript Execution Context==================================
+
+/* Java script runs the code in two phase 
+
+Three types of execution context are thier 
+1-> Global execution context
+2-> function execution context
+3-> eval execution context
+
+*/
+
