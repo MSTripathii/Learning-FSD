@@ -1,0 +1,87 @@
+https://www.geeksforgeeks.org/web-development-projects-for-your-resume/
+
+1. E-Commerce
+E-Commerce is something that most web developers must have tried. The application comes with multiple features like login/sign in, product lists, order summary, discount offers, profile section, cart items, creating payment gateway, search bar, and many more which is possible with features of React like React hooks for state-driven conditions without writing a class, props for passing the variables, etc. Follow a component-based structure. The application should be dynamic, interactive, and accessible on multiple platforms like laptops, tablets, and mobiles (responsiveness).
+
+For the back end, use the event-driven architecture of NodeJS and call-back function when an event is triggered such as an order is placed for an item. The data of the products, ordered items and profile details should be stored in a structured way and must be encrypted. Any such updates to be made like adding a new feature must be done at the back end using NodeJS. You can also use Express.js which is an open-source framework for NodeJS which implements web applications more quicker and easier. 
+
+
+2. Social Media
+Social Media App catches the attention of almost every one of us as it has been an important part of our daily activity. Implementing this app requires very well-connected ends for various reasons like security and management. The UI part consists of chat options, feeds, notifications, and a friends list. 
+
+You can also use windows.alert() function to create a pop-up when a new update is seen or for various other purposes. For developing a dynamic web app, Angular is the best choice. Angular works with TypeScript which makes it much easier to implement. We implement its back-end by setting up databases, servers, and APIs, and working out perfect storage solutions. 
+
+3. Job App
+An application that gives employment to individuals as per their qualifications. The application filters the job as per the requirement and qualifications. While applying for the job, all the details of the company like role, salary provided, location, etc. should be visible to the individual. Use of Context APIs to share data without passing it through props manually, React Redux to store, dispatch, and see the actions of the data. 
+
+What does this application do? Suppose, if a person is a BA graduate, he/she will be able to apply for a job (like banking sales, BPO, content writing) as soon as he enters the qualification details and then applies for it after having a clear understanding of the job. A file Filter_Job can be made where code flows like checks the qualification and then describes companies and job roles.
+
+In the back end, all the details entered like name, email, and contact no should be secured by disabling public network access to database servers and taking all the safety measures. 
+
+4. Resume Builder
+Resume Builder is a website when created will help most aspiring individuals to make an attractive and ever-wanting resume within minutes. Its feature includes personal details, educational background, skills achieved, projects undertaken, and a lot more about self. Each section has many sub-sections which could be implemented using components in React.
+
+And then, the back end will include everything related to a person’s bio-data and keep it secure by limiting the settings. For example, coming to the web server, restricting logins to certain users or IP addresses, using automated brute force detection systems (that automatically ban offending IP addresses), or using HTTP authentication in development areas helps a lot. 
+
+Looking to land your dream job in tech? It all starts with a killer resume, and GeeksforGeeks has got you covered! Our FREE Online Resume Builder is completely free and designed to help you showcase your technical skills in the best way possible. With easy-to-use templates and customization options, you can create a professional-grade resume in no time. So why wait? Give your career the boost it deserves and build your perfect resume with GeeksforGeeks today!
+
+5. Healthcare App
+Health is a major concern for every one of us. So, why not implement something which determines your health status and warns you to take proper care? A pop-up using windows.pop() function when your sugar level goes beyond a certain level or something unusual for physical health. This app diagnoses your physical condition as per your entries in terms of health and advises you to follow some practices at no cost. 
+
+JSX enables the creation of a new UI feature that offers real-time results. Using event handlers, several events can be created and decide what should happen next. In certain cases, it can also advise you to consult a doctor in your comfort place. 
+
+Just Sign in with a few of the details and filter out the specialist as per your need, book an appointment, and get yourself diagnosed thoroughly. The back-end part again stores the person’s health details and report.
+
+6. Course Provider Platform
+A platform that provides tutorials in the form of videos or paragraphs to every student same as Udemy and Coursera. You just need to have a good grip on React, React Router to navigate through pages, React Hooks to have simpler code, and the use of props to pass the values in functional components. Functional components can be used where props can be used as an argument. In Class components, we extend components and have a render function. All the sections can be made like courses, filter search, using Nav-Bar functionality.
+
+All the student’s details like what courses they read, their detail, etc. can be stored in a database at the back end. For database management, use MongoDB. You can use NodeJS to build servers.
+
+7. Gaming App
+This application is generally for people who love gaming. This can be built using Vue.JS which provides higher customizability. It also has an overlap with Angular and React concerning their functionality like the use of components. The count feature when implemented whenever a button is pressed, the count gets incremented by 1 and passes it to another level. Also, import the router which could be used for navigating the pages like the score page, level page, etc. 
+
+At the back-end part, you can store the player’s name, the scores they achieved, the level they passed, and the highest score or level passed. The database stores all the information. Therefore, all the details of the game can be handled by the back end.
+
+8. Freelancing Developers
+Similar to Upwork and Fiverr however this platform is only for developers. A platform where developers can easily find and connect with fellow developers and work on projects together. This could level up your skills. Using Redux, to update the state value to each input field, we add an onChange event handler. The Home Page should list all the companies which hire freelancers for collaboration. All the CRUD (Create, Remove, Update, and Delete) operations could be done using GET, PUT, POST, and DELETE. Using Axios (HTTP client library) requests to a given endpoint.
+
+The back end should work with server-side web applications and integration the work done by front-end developers. They usually write web services and APIs which are used by front-end developers.
+
+9. Online Code Editor
+These editors are accessible via browsers and work on remote servers. The basic features include syntax highlighting, and error detection similar to complete IDEs. Using JavaScript code snippets, you can implement these features. The front end can be handled by React, Angular, or any other framework you would like to work on. 
+
+The back end can be handled using Java and DBMS. The authentication key can be generated using MongoDB Atlas and used in the back-end code snippet for the data fetching and updating process. The styling can be implemented and made attractive using CSS. You can also publish your project on GitHub for others’ reference. 
+
+10. A Trading App
+Trading is something today that brings interest to everyone’s mind. Why not build something like Groww and UpStox? This app features available market data, trading alerts, and many more. Using React Native to implement this would be the best choice. All the dependencies and dev-dependencies which library you need to use, get installed in the project when you run the command to install them. Using the Redux feature to store data, also request to update it. The backend works with API authentication, database management system, and security issues
+
+
+1. To-Do List Application
+Create a simple to-do list application where users can add, delete, and mark tasks as completed. This project will help you practice DOM manipulation, event handling, and basic data management.
+
+2. Weather Application
+Build a weather application that fetches weather data from an API (such as OpenWeatherMap). Users should be able to enter a location and see current weather conditions. This project will help you learn about asynchronous JavaScript (fetch API), handling JSON data, and updating UI based on user input.
+
+3. Quiz App
+Develop a quiz application with multiple-choice questions. Users can select answers, and the application should provide feedback on correctness. This project will involve managing arrays of questions and answers, handling user interactions, and calculating scores.
+
+4. GitHub User Finder
+Create an application that allows users to search for GitHub users and display their basic information (username, bio, avatar). This project will involve making HTTP requests to the GitHub API, handling responses (JSON data), and displaying dynamic content on the webpage.
+
+5. Expense Tracker
+Build an expense tracker where users can add and categorize expenses. The application should display a summary of total expenses and allow filtering by category or date range. This project will involve managing arrays of objects, filtering data, and displaying summaries.
+
+6. Interactive Form Validation
+Create a form with interactive validation for fields like email, password strength, and required fields. Provide real-time feedback to users as they fill out the form. This project will help you practice form handling, input validation using regular expressions, and displaying error messages dynamically.
+
+7. Memory Game
+Develop a memory game where users match pairs of cards. Cards should be shuffled, and the game should keep track of the number of moves and time taken to complete. This project will involve manipulating arrays, randomizing elements, and implementing game logic.
+
+8. Movie Database Search
+Build an application that fetches movie data from a public API (such as OMDB) based on user input (search query). Display search results with movie details (title, poster, plot). This project will help you practice making API requests, handling responses, and displaying dynamic content.
+
+9. Chat Application
+Create a simple chat application using WebSockets or a chat API. Users should be able to send and receive messages in real-time. This project will introduce you to event-driven programming, handling sockets or APIs, and updating UI in real-time.
+
+10. Calculator
+Develop a basic calculator that performs arithmetic operations (addition, subtraction, multiplication, division). The calculator should handle user input and display results dynamically. This project will reinforce your understanding of functions, event handling, and basic arithmetic operations.
