@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning DOM</title>
+    <style>
+        .main{
+            background-color: black;
+        }
+        h1,p,ul{
+            color: white;
+        }
+    </style>
+</head>
+<body class="main">
+    <div>
+        <h1 id="hello" class="heading">Learning DOM by chai aur code</h1>
+        <p class="para">Hello my name is Madhusudan Tripathi</p>
+    </div>
+
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+</body>
+</html>
+
+//Inner Text gives us the data which is present in the web page 
+//InnerContent gives us the real data written by removing all the styles like display none etc
+//InnerHTML gives all the value including html tags written in it
+
+<!-- document.querySelectorAll('ul')
+NodeList [ul]0: ullength: 1[[Prototype]]: NodeList
+document.querySelectorAll('li')
+
+NodeList(3) [li, li, li]
+const lilist = document.querySelectorAll('li')
+undefined
+lilist
+NodeList(3) [li, li, li]
+lilist.forEach( (item) =>{} )
+undefined
+lilist.forEach( (item) =>{ item.style.color = 'yellow' } )
+
+undefined -->
