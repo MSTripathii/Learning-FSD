@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Coder_MST</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+    <script>
+        
+        // const ChangeH1 = function (){
+        //     document.querySelector('h1').innerText = 'Madhusudan Tripathi'
+        // }
+
+        // const Printname = function(){
+        //     console.log("Coder_MST");
+        // }
+
+        // setTimeout(ChangeH1, 2000); //Here we are only giving reference not the excution because that is handler and handler takes reference
+        //execution is given by Printname() -> with paranthesis
+        let interval
+        document.querySelector('#start').addEventListener('click',function(){
+            interval = setInterval(function(e){
+                const h1 = document.createElement('p')
+                h1.innerHTML = "Coder_MST reached 100M Subscribers"
+                document.body.appendChild(h1);
+            },1000,0)
+        })
+
+        document.querySelector('#stop').addEventListener('click',function(){
+            clearInterval(interval);
+            console.log("stopped");
+        })
+
+    </script>
+</body>
+</html>
